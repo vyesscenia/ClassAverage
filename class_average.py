@@ -21,3 +21,16 @@ loop through scores
 print average
 
 """
+
+def calculate_average(scores):
+    iterator=0
+    accumulator=0
+    student_count=len(scores)
+    while iterator<  len(scores):
+        accumulator = accumulator + scores[iterator]
+        iterator = iterator + 1
+    average = accumulator / student_count
+    return average
+
+output = calculate_average([50, 0, 100, 80, 90, 50, 100, 70, 90])
+print("The average of total scores in the class is : ", output)
