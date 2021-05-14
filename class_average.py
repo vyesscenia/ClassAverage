@@ -10,3 +10,14 @@ display the output to the user
 output:print the average of the class scores
 
 """
+
+"""
+scores
+iterator, accumulator = 0
+loop through scores
+    accumulator = accumulator + scores
+    iterator = iterator + 1
+    average = accumulator / total score
+print average
+
+"""
